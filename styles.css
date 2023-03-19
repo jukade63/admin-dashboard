@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+
+}
+
+.app {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: minmax(200px, 1fr) 3.5fr;
+}
+
+.content{
+    display: grid;
+    grid-template-rows: 55px 65px 1fr;
+}
+
+.content-main{
+    display: grid;
+    grid-template-columns: minmax(300px, 3.5fr) minmax(200px, 1fr);
+}
+.projects{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(320px, 1fr) );;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.content-header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.content-sidebar{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+
+
