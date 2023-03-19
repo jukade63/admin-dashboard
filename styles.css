@@ -37,6 +37,14 @@ img{
     grid-template-columns: 30px 1fr;
     grid-template-rows: repeat(9, 40px);
 }
+.panel-menu span{
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.panel-menu span:hover{
+    transform: translateX(4px);
+    text-decoration: underline;
+}
 .content{
     display: grid;
     grid-template-rows: 55px 80px 1fr;
